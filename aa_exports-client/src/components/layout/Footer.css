@@ -1,0 +1,19 @@
+#footer {
+  max-height: 200px;
+  padding: none;
+  margin: none;
+}
+
+.mt-footer {
+  margin-top: 180px;
+}
+
+.footer-block {
+  margin-top: 60px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+i {
+  color: rgb(27, 27, 88);
+}

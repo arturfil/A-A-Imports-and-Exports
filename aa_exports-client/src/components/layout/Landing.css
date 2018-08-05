@@ -1,0 +1,11 @@
+.mt-landing {
+  margin-top: 250px;
+}
+
+p {
+  text-transform: uppercase;
+}
+
+.img-height {
+  max-height: 500px;
+}
