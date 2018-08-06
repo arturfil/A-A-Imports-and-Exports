@@ -7,7 +7,7 @@ class Footer extends Component {
       <div>
         <footer id="footer">
           <div className="container">
-            <h2 className="mt-footer elegant">A&A Imports and Exports</h2>
+            <h2 className="mt-footer footer-title elegant">A&A Export Inc.</h2>
             <p>Phone: 55 5339-2200</p>
             <p>Email: gustavo@aaexports.com</p>
           </div>

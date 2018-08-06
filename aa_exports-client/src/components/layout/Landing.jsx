@@ -9,12 +9,10 @@ class Landing extends Component {
           <div className="container">
             <div className="row">
               <div className="col-md-12 text-center">
-                <h2 className="mt-landing display-3 mb-4">
-                  A&A Imports & Exports
-                </h2>
+                <h2 className="mt-landing display-3 mb-4">A&A Export Inc.</h2>
                 <p className="lead">
                   {' '}
-                  Imports and Exports Services to Cater to your needs
+                  Imports and Exports Services crafted to your needs
                 </p>
               </div>
             </div>

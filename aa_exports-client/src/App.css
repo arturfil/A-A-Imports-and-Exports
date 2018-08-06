@@ -1,3 +1,7 @@
+body {
+  font-family: 'Montserrat';
+}
+
 img {
   width: 100%;
 }
@@ -14,6 +18,14 @@ nav {
   height: 700px;
   margin-top: -24px;
   margin-bottom: -50px;
+}
+
+.our-services {
+  position: relative;
+  background: url('./img/machine_wide.jpeg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
 }
 
 .landing-inner {
@@ -43,5 +55,5 @@ nav {
 }
 
 #footer {
-  max-height: 200px;
+  margin-bottom: -100px;
 }

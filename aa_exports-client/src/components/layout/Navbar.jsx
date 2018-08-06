@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
 import './Navbar.css';
 
 class Navbar extends Component {
@@ -14,7 +16,7 @@ class Navbar extends Component {
               href="#landing-page"
               className="navbar-brand elegant btn-landing"
             >
-              A&A Imports & Exports
+              A&A Export Inc.
             </a>
             <button
               className="navbar-toggler"
@@ -25,117 +27,41 @@ class Navbar extends Component {
             </button>
             <div className="collapse navbar-collapse" id="navbarCollapse">
               <ul className="navbar-nav ml-auto red-color">
-                <li className="nav-item dropdown hov-anim">
-                  <a
-                    className="nav-link dropdown-toggle"
-                    id="navbarDropdown"
-                    style={{ color: 'rgb(19, 19, 97)' }}
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    HOME
-                  </a>
-                  <div
-                    className="dropdown-menu"
-                    aria-labelledby="navbarDropdown"
-                  >
-                    <a
-                      className="dropdown-item nav-link"
-                      style={{ color: 'rgb(19, 19, 97)' }}
-                    >
-                      Quienes Somos
-                    </a>
-                    <a
-                      className="dropdown-item nav-link"
-                      style={{ color: 'rgb(19, 19, 97)' }}
-                    >
-                      Valores
-                    </a>
-                    <a
-                      className="dropdown-item nav-link"
-                      style={{ color: 'rgb(19, 19, 97)' }}
-                    >
-                      Misión y Visión
-                    </a>
-                    <a
-                      className="dropdown-item nav-link"
-                      style={{ color: 'rgb(19, 19, 97)' }}
-                    >
-                      Filosofía
-                    </a>
-                  </div>
-                </li>
-                <li
-                  className="nav-item dropdown hov-anim"
-                  style={{ color: 'rgb(19, 19, 97)' }}
-                >
-                  <a
-                    className="nav-link dropdown-toggle"
-                    id="navbarDropdown"
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
+                <li className="nav-item">
+                  <Link
+                    className="nav-link hov-anim a-links"
+                    to="/"
                     style={{ color: 'rgb(19, 19, 97)' }}
                   >
-                    OUR SERVICES
-                  </a>
-                  <div
-                    className="dropdown-menu"
-                    aria-labelledby="navbarDropdown"
-                  >
-                    <a
-                      className="dropdown-item nav-link"
-                      style={{ color: 'rgb(19, 19, 97)' }}
-                    >
-                      Asesoría Fiscal y Jurídica
-                    </a>
-                    <a
-                      className="dropdown-item nav-link"
-                      style={{ color: 'rgb(19, 19, 97)' }}
-                    >
-                      Administración de Personal
-                    </a>
-                    <a
-                      className="dropdown-item nav-link"
-                      style={{ color: 'rgb(19, 19, 97)' }}
-                    >
-                      Beneficios
-                    </a>
-                    <a
-                      className="dropdown-item nav-link"
-                      style={{ color: 'rgb(19, 19, 97)' }}
-                    >
-                      reclutamiento y Selección
-                    </a>
-                  </div>
+                    Home
+                  </Link>
                 </li>
-                <li className="nav-item hov-anim">
-                  <a className="nav-link" style={{ color: 'rgb(19, 19, 97)' }}>
-                    OUR BRANDS
-                  </a>
-                </li>
-                <li className="nav-item dropdown hov-anim">
-                  <a
-                    className="nav-link dropdown-toggle"
-                    id="navbarDropdown"
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
+                <li className="nav-item">
+                  <Link
+                    className="nav-link hov-anim a-links"
+                    to="/services"
                     style={{ color: 'rgb(19, 19, 97)' }}
                   >
-                    CONTACT US
-                  </a>
-                  <div
-                    className="dropdown-menu"
-                    aria-labelledby="navbarDropdown"
+                    Our Services
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link
+                    to="/"
+                    className="nav-link hov-anim a-links"
+                    style={{ color: 'rgb(19, 19, 97)' }}
                   >
-                    <a className="dropdown-item nav-link">Escríbenos</a>
-                    <a className="dropdown-item nav-link">información</a>
-                  </div>
+                    Customers
+                  </Link>
+                </li>
+                <li className="nav-item ">
+                  <Link
+                    to="/"
+                    className="nav-link hov-anim a-links"
+                    style={{ color: 'rgb(19, 19, 97)' }}
+                  >
+                    Contact Us
+                  </Link>
                 </li>
               </ul>
             </div>

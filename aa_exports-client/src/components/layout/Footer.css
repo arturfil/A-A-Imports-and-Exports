@@ -1,11 +1,15 @@
 #footer {
-  max-height: 200px;
-  padding: none;
-  margin: none;
+  border-top-color: black;
+  min-height: 450px;
+  background: lightgrey;
+}
+
+.footer-title {
+  padding-top: 100px;
 }
 
 .mt-footer {
-  margin-top: 180px;
+  margin-top: 40px;
 }
 
 .footer-block {

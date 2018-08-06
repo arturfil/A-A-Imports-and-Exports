@@ -1,0 +1,24 @@
+.h2-ourservices {
+  padding-top: 190px;
+}
+
+.p-ourservices {
+  font-size: 30px;
+}
+
+.title {
+  margin-top: 80px;
+  color: black;
+}
+
+.basic {
+  border-color: black;
+  color: black;
+  width: 40px;
+}
+
+.img-size {
+  margin: 40px 10px 0 10px;
+  width: 350px;
+  height: 220px;
+}
