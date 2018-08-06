@@ -9,13 +9,10 @@ class Navbar extends Component {
       <div>
         <nav className="navbar fixed-top mb-4 navbar-expand-sm navbar-light">
           <div className="container">
-            <a href="#landing-page" className="nav-link">
+            <a href="/" className="nav-link">
               <img src="/img/logo-seri.jpg" alt="" />
             </a>
-            <a
-              href="#landing-page"
-              className="navbar-brand elegant btn-landing"
-            >
+            <a href="/" className="navbar-brand elegant btn-landing">
               A&A Export Inc.
             </a>
             <button
@@ -47,7 +44,7 @@ class Navbar extends Component {
                 </li>
                 <li className="nav-item">
                   <Link
-                    to="/"
+                    to="/placeOrders"
                     className="nav-link hov-anim a-links"
                     style={{ color: 'rgb(19, 19, 97)' }}
                   >
