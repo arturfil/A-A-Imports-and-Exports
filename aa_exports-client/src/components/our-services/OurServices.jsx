@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 
 import './OurServices.css';
-import machine1 from '../../img/machinesmall.jpeg';
-import machine2 from '../../img/machine_wide.jpeg';
-import machine3 from '../../img/machine3.jpeg';
+import machine1 from '../../img/aa_7.jpg';
+import machine2 from '../../img/aa_2.jpeg';
+import machine3 from '../../img/aa_3.jpeg';
+import machine4 from '../../img/aa_4.jpeg';
+import machine5 from '../../img/aa_5.jpeg';
+import machine6 from '../../img/aa_6.jpeg';
 
 class OurServices extends Component {
   render() {
@@ -32,13 +35,13 @@ class OurServices extends Component {
           </p>
           <div className="row text-center">
             <div className="col-md-4 ">
-              <img className="img-size" src={machine2} alt="" />
+              <img className="img-size" src={machine1} alt="" />
               <h4>DOOR TO DOOR</h4>
               <hr className="basic" />
               <p>Door to door shipment!</p>
             </div>
             <div className="col-md-4 ">
-              <img className="img-size" src={machine1} alt="" />
+              <img className="img-size" src={machine2} alt="" />
               <h4>USA TO VENEZUELA</h4>
               <hr className="basic" />
               <p>From Latin America all the way to the U.S.</p>
@@ -52,19 +55,19 @@ class OurServices extends Component {
           </div>
           <div className="row text-center">
             <div className="col-md-4 ">
-              <img className="img-size" src={machine2} alt="" />
+              <img className="img-size" src={machine4} alt="" />
               <h4>ENGINE PARTS</h4>
               <hr className="basic" />
               <p>We buy engines for the machines and repairs</p>
             </div>
             <div className="col-md-4 ">
-              <img className="img-size" src={machine1} alt="" />
+              <img className="img-size" src={machine5} alt="" />
               <h4>REPAIR PARTS</h4>
               <hr className="basic" />
               <p>We buy new and used parts that are custom needed</p>
             </div>
             <div className="col-md-4 ">
-              <img className="img-size" src={machine3} alt="" />
+              <img className="img-size" src={machine6} alt="" />
               <h4>SHIPPING</h4>
               <hr className="basic" />
               <p>We buy you the prats and ship them</p>
