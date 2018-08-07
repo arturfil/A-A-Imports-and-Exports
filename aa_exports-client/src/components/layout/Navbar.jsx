@@ -60,6 +60,15 @@ class Navbar extends Component {
                     Contact Us
                   </Link>
                 </li>
+                <li className="nav-item ">
+                  <a
+                    to="/"
+                    className="nav-link hov-anim a-links"
+                    style={{ color: 'rgb(19, 19, 97)' }}
+                  >
+                    ENG / ESP.
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
