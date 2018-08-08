@@ -29,11 +29,6 @@ require('./config/passport')(passport);
 //routes
 app.use(express.static(__dirname));
 
-// index route
-app.get('/', (res, req, next) => {
-  res.render('index');
-});
-
 // Serve static assets if in production
 if (process.env.NODE_ENV === 'production') {
   //Set static folder
