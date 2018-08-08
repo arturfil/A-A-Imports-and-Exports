@@ -2,8 +2,9 @@
   margin-top: 250px;
 }
 
-p {
+.landing p {
   text-transform: uppercase;
+  color: white;
 }
 
 .img-height {
