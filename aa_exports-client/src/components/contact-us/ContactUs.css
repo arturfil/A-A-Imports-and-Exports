@@ -34,3 +34,16 @@
   color: rgb(0, 0, 0);
   transition: 0.2s;
 }
+
+@media only screen and (max-width: 1024px) and (min-width: 676px) {
+}
+
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+  .form-size {
+    width: 350px;
+  }
+
+  .form-area {
+    width: 350px;
+  }
+}

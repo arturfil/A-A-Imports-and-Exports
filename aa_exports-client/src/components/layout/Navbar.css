@@ -3,6 +3,10 @@ nav {
   position: fixed;
 }
 
+nav {
+  border-bottom: rgb(28, 28, 223) 1px solid;
+}
+
 .navbar-brand {
   text-transform: uppercase;
 }
