@@ -2,5 +2,3 @@ node_modules
 aa_exports-client/package.json
 .env
 /config/keys_dev.js 
-/config/keys.js 
-/config/keys_prod.js 

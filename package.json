@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "client-install": "npm install --prefix aa_exports-client",
     "start": "node app.js",
     "server": "nodemon app.js",
     "client": "npm start --prefix aa_exports-client",
