@@ -3,6 +3,10 @@ nav {
   position: fixed;
 }
 
+.navbar-brand {
+  text-transform: uppercase;
+}
+
 .a-links {
   text-transform: uppercase;
   font-size: 13px;

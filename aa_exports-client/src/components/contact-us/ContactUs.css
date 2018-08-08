@@ -1,0 +1,36 @@
+.form-contact {
+  padding-top: 120px;
+}
+
+.form-contact hr {
+  margin-bottom: 60px;
+}
+
+.form-size {
+  text-indent: 10px;
+  height: 60px;
+  width: 550px;
+  margin-bottom: 20px;
+}
+
+.form-area {
+  text-indent: 10px;
+  width: 550px;
+  border-color: lightgrey;
+  height: 190px;
+}
+
+.btn-form {
+  margin-top: 20px;
+  background-color: rgb(6, 6, 70);
+  color: white;
+  height: 50px;
+  width: 130px;
+  font-size: 20px;
+}
+
+.btn-form:hover {
+  background: rgb(114, 150, 226);
+  color: rgb(0, 0, 0);
+  transition: 0.2s;
+}

@@ -4,6 +4,12 @@
 
 .p-ourservices {
   font-size: 30px;
+  color: white;
+}
+
+.info-block,
+p {
+  color: black;
 }
 
 .title {
@@ -15,6 +21,10 @@
   border-color: black;
   color: black;
   width: 40px;
+}
+
+.m2 {
+  border: solid lightgrey 1px;
 }
 
 .img-size {

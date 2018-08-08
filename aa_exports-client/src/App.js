@@ -7,6 +7,7 @@ import Landing from './components/layout/Landing';
 import Footer from './components/layout/Footer';
 import OurServices from './components/our-services/OurServices';
 import PlaceOrders from './components/place-orders/PlaceOrders';
+import ContactUs from './components/contact-us/ContactUs';
 
 import './App.css';
 
@@ -19,6 +20,7 @@ class App extends Component {
           <Route exact path="/" component={Landing} />
           <Route exact path="/services" component={OurServices} />
           <Route exact path="/placeOrders" component={PlaceOrders} />
+          <Route exact path="/contactUs" component={ContactUs} />
           <Footer />
         </div>
       </BrowserRouter>

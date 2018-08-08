@@ -2,11 +2,14 @@ import React, { Component } from 'react';
 
 import './OurServices.css';
 import machine1 from '../../img/aa_7.jpg';
-import machine2 from '../../img/aa_2.jpeg';
-import machine3 from '../../img/aa_3.jpeg';
-import machine4 from '../../img/aa_4.jpeg';
-import machine5 from '../../img/aa_5.jpeg';
-import machine6 from '../../img/aa_6.jpeg';
+import machine2 from '../../img/machine_engine.jpeg';
+import machine3 from '../../img/crane-machine.jpg';
+import machine4 from '../../img/hydraulic_hammer.jpg';
+import machine5 from '../../img/forklift.jpg';
+import machine6 from '../../img/machine-valve.jpg';
+import machine7 from '../../img/power-generator.jpg';
+import machine8 from '../../img/boat-parts.jpg';
+import machine9 from '../../img/plane-part.jpeg';
 
 class OurServices extends Component {
   render() {
@@ -26,51 +29,52 @@ class OurServices extends Component {
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="container info-block">
           <h2 className="text-center title">Our services</h2>
-          <hr className="basic" />
           <p className="text-center">
-            We buy all type of machiner, valves, used forklifters and many more
-            equipment that you need!
+            We specialize in purchase and shipment of equipment. We focus our
+            range of products vary from various important industries.
           </p>
           <div className="row text-center">
             <div className="col-md-4 ">
-              <img className="img-size" src={machine1} alt="" />
-              <h4>DOOR TO DOOR</h4>
-              <hr className="basic" />
-              <p>Door to door shipment!</p>
+              <img className="img-size m2" src={machine1} alt="" />
+              <h4>Heavy & Light Machines</h4>
             </div>
             <div className="col-md-4 ">
-              <img className="img-size" src={machine2} alt="" />
-              <h4>USA TO VENEZUELA</h4>
-              <hr className="basic" />
-              <p>From Latin America all the way to the U.S.</p>
+              <img className="img-size m2" src={machine2} alt="" />
+              <h4>Engines for Machinery</h4>
             </div>
             <div className="col-md-4 ">
-              <img className="img-size" src={machine3} alt="" />
-              <h4>MACHINERY</h4>
-              <hr className="basic" />
-              <p>We buy new machines</p>
+              <img className="img-size m2" src={machine3} alt="" />
+              <h4>Construction Cranes Machines</h4>
             </div>
           </div>
           <div className="row text-center">
             <div className="col-md-4 ">
-              <img className="img-size" src={machine4} alt="" />
-              <h4>ENGINE PARTS</h4>
-              <hr className="basic" />
-              <p>We buy engines for the machines and repairs</p>
+              <img className="img-size m2" src={machine4} alt="" />
+              <h4>Hydraulic Hammers</h4>
             </div>
             <div className="col-md-4 ">
-              <img className="img-size" src={machine5} alt="" />
-              <h4>REPAIR PARTS</h4>
-              <hr className="basic" />
-              <p>We buy new and used parts that are custom needed</p>
+              <img className="img-size m2" src={machine5} alt="" />
+              <h4>Forklifts</h4>
             </div>
             <div className="col-md-4 ">
-              <img className="img-size" src={machine6} alt="" />
-              <h4>SHIPPING</h4>
-              <hr className="basic" />
-              <p>We buy you the prats and ship them</p>
+              <img className="img-size m2" src={machine6} alt="" />
+              <h4>Vaulves, Bombs & Compressors</h4>
+            </div>
+          </div>
+          <div className="row text-center">
+            <div className="col-md-4 ">
+              <img className="img-size m2" src={machine7} alt="" />
+              <h4>Portable Power Generator</h4>
+            </div>
+            <div className="col-md-4 ">
+              <img className="img-size m2" src={machine8} alt="" />
+              <h4>Boat Accesories & Repair Parts</h4>
+            </div>
+            <div className="col-md-4 ">
+              <img className="img-size m2" src={machine9} alt="" />
+              <h4>Airplane Parts</h4>
             </div>
           </div>
         </div>

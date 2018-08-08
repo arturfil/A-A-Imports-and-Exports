@@ -6,10 +6,11 @@ class Footer extends Component {
     return (
       <div>
         <footer id="footer">
-          <div className="container">
+          <div className="container footer-contact">
             <h2 className="mt-footer footer-title elegant">A&A Export Inc.</h2>
-            <p>Phone: 55 5339-2200</p>
-            <p>Email: gustavo@aaexports.com</p>
+            <p>Phone: (001-305) 716-0927</p>
+            <p>Fax: (001-305) 716-0135</p>
+            <p>Email: logistics@aaexports.com</p>
           </div>
           <div className="container footer-block">
             <div className="row">

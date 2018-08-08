@@ -1,11 +1,21 @@
 #footer {
   border-top-color: black;
+  background: rgb(2, 11, 94);
   min-height: 450px;
-  background: lightgrey;
+}
+
+#footer p {
+  color: white;
+}
+
+.footer-contact,
+p {
+  color: white;
 }
 
 .footer-title {
   padding-top: 100px;
+  color: white;
 }
 
 .mt-footer {
@@ -18,6 +28,11 @@
   margin-bottom: 100px;
 }
 
+.footer-block,
+p {
+  color: white;
+}
+
 i {
-  color: rgb(27, 27, 88);
+  color: rgb(255, 255, 255);
 }
