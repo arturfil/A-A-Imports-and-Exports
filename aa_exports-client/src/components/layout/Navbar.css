@@ -16,6 +16,12 @@ nav {
   font-size: 13px;
 }
 
+.logo {
+  margin-right: 10px;
+  height: 20px;
+  width: 35px;
+}
+
 .hov-anim::after {
   content: '';
   display: block;

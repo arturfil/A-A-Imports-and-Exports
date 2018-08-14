@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 
 import './Navbar.css';
 
+import logo from '../../img/LogoAAQB.jpg';
+
 class Navbar extends Component {
   render() {
     return (
@@ -12,6 +14,7 @@ class Navbar extends Component {
             <a href="/" className="nav-link">
               <img src="/img/logo-seri.jpg" alt="" />
             </a>
+            <img src={logo} alt="" className="logo responsive" />
             <a href="/" className="navbar-brand elegant btn-landing">
               A&A Export Inc.
             </a>
@@ -31,6 +34,15 @@ class Navbar extends Component {
                     style={{ color: 'rgb(19, 19, 97)' }}
                   >
                     Home
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link
+                    className="nav-link hov-anim a-links"
+                    to="/aboutUs"
+                    style={{ color: 'rgb(19, 19, 97)' }}
+                  >
+                    About Us
                   </Link>
                 </li>
                 <li className="nav-item">

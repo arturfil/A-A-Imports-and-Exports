@@ -4,6 +4,18 @@
   color: white;
 }
 
+.title {
+  text-transform: uppercase;
+}
+
+.intro {
+  color: grey;
+  font-weight: 100;
+  font-size: 19px;
+  margin: 0 20%;
+  text-align: justify;
+}
+
 .info-block,
 p {
   color: black;

@@ -28,6 +28,14 @@ nav {
   min-height: 400px;
 }
 
+.about-us {
+  position: relative;
+  background: url('./img/vessel.jpeg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+}
+
 .landing-inner {
   padding-top: 80px;
 }
