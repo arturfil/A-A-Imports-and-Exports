@@ -1,7 +1,7 @@
 #footer {
   border-top-color: black;
   background: rgb(2, 11, 94);
-  min-height: 450px;
+  min-height: 530px;
 }
 
 #footer p {
@@ -11,6 +11,7 @@
 .footer-contact,
 p {
   color: white;
+  border-bottom-color: white solid 1px;
 }
 
 .footer-title {
@@ -31,6 +32,13 @@ p {
 .footer-block,
 p {
   color: white;
+}
+
+.footer-line {
+  padding: 10px;
+  color: white;
+  width: 600px;
+  background: white solid 1px;
 }
 
 i {

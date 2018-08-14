@@ -24,11 +24,11 @@ class AboutUs extends Component {
         <hr className="basic" />
         <div className="container paragraphs">
           <p>
-            ß Our company specializes in purchasing supplies and parts for the
-            oil industry as well as the construction industry. We supply all
-            your industrial needs by being your chosen purchasing and shipping
-            agent in the United States. With 23 years of experience we provide
-            only the best service and prices to our clients.
+            Our company specializes in purchasing supplies and parts for the oil
+            industry as well as the construction industry. We supply all your
+            industrial needs by being your chosen purchasing and shipping agent
+            in the United States. With 23 years of experience we provide only
+            the best service and prices to our clients.
           </p>
           <p>
             In addition to specializing in purchasing everything from hydraulic

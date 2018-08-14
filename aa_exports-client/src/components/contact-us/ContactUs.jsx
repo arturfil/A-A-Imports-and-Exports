@@ -5,7 +5,7 @@ class ContactUs extends Component {
   render() {
     return (
       <div className="form-contact">
-        <h2 className="text-center">Send us a message</h2>
+        <h2 className="text-center title">Send us a message</h2>
         <hr className="basic" />
         <form
           action="mailto:logistics@aaexports.com"
