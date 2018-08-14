@@ -39,3 +39,14 @@ nav {
 navbar {
   position: fixed;
 }
+
+@media only screen and (max-width: 1024px) and (min-width: 676px) {
+}
+
+@media only screen and (max-width: 676px) and (min-width: 320px) {
+  .logo {
+    margin-right: 10px;
+    height: 30px;
+    width: 45px;
+  }
+}
