@@ -16,6 +16,17 @@
   text-align: justify;
 }
 
+.title-paragraphs {
+  margin-top: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.os-icon {
+  color: rgb(17, 17, 111);
+  margin-bottom: 20px;
+}
+
 .info-block,
 p {
   color: black;
