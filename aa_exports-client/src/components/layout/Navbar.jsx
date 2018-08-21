@@ -11,9 +11,6 @@ class Navbar extends Component {
       <div>
         <nav className="navbar fixed-top mb-4 navbar-expand-sm navbar-light">
           <div className="container">
-            <a href="/" className="nav-link">
-              <img src="/img/logo-seri.jpg" alt="" />
-            </a>
             <img src={logo} alt="" className="logo responsive" />
             <a href="/" className="navbar-brand elegant btn-landing">
               A&A Export Inc.
