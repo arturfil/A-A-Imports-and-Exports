@@ -28,12 +28,18 @@ class ContactUs extends Component {
 
     const { name, email, company, phone, message } = this.state;
 
-    const form = await axios.post('/api/form', {
+    const formData = {
       name,
       email,
       company,
       phone,
       message,
+    };
+
+    return axios({
+      method: 'post',
+      url: '/api/form',
+      data: formData,
     });
   }
 
