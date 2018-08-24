@@ -13,15 +13,11 @@ class ContactUs extends Component {
       phone: '',
       company: '',
       message: '',
-      showMenu: true,
+      showMenu: false,
     };
 
     this.onSubmit = this.onSubmit.bind(this);
   }
-
-  toggleMenu = () => {
-    this.setState.showMenu = !this.state.showMenu;
-  };
 
   async onSubmit(e) {
     e.preventDefault();
@@ -49,18 +45,20 @@ class ContactUs extends Component {
     });
   };
 
-  //create an onClick method
+  onClick = () => {
+    this.setState({ showMenu: true });
+  };
 
   render() {
     return (
       <div className="form-contact">
-        {this.props.showMenu && (
+        {this.state.showMenu ? (
           <div className="container">
-            <div class="alert alert-success" role="alert">
+            <div className="alert alert-success" role="alert">
               Message was sent!
             </div>
           </div>
-        )}
+        ) : null}
         <h2 className="text-center title">Send us a message</h2>
         <hr className="basic" />
         <form onSubmit={this.onSubmit} className="text-center form-group">
@@ -105,7 +103,7 @@ class ContactUs extends Component {
             onChange={this.onChange}
           />
           <br />
-          <button className="btn-form" onClick={this.toggleMenu}>
+          <button className="btn-form" onClick={this.onClick}>
             Send
           </button>
         </form>
