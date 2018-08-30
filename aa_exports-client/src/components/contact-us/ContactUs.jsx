@@ -14,7 +14,6 @@ class ContactUs extends Component {
       company: '',
       message: '',
       showMenu: false,
-      clicked: true,
     };
 
     this.onSubmit = this.onSubmit.bind(this);
@@ -33,8 +32,6 @@ class ContactUs extends Component {
       message,
     };
 
-    this.setState({ showMenu: true });
-
     return axios({
       method: 'post',
       url: '/api/form',
@@ -49,15 +46,11 @@ class ContactUs extends Component {
   };
 
   onClick = () => {
-    this.setState({ clicked: !this.state.clicked });
-  };
-
-  onToggle = () => {
-    this.setState({ clicked: false });
+    this.setState({ showMenu: true });
   };
 
   render() {
-    var inEnglish = (
+    return (
       <div className="form-contact">
         {this.state.showMenu ? (
           <div className="container">
@@ -110,72 +103,12 @@ class ContactUs extends Component {
             onChange={this.onChange}
           />
           <br />
-          <button className="btn-form">Send</button>
+          <button className="btn-form" onClick={this.onClick}>
+            Send
+          </button>
         </form>
-        {/* <button onClick={this.onClick}>change language</button> */}
       </div>
     );
-
-    var inSpanish = (
-      <div className="form-contact">
-        {this.state.showMenu ? (
-          <div className="container">
-            <div className="alert alert-success" role="alert">
-              Message was sent!
-            </div>
-          </div>
-        ) : null}
-        <h2 className="text-center title">Mandanos un mensaje</h2>
-        <hr className="basic" />
-        <form onSubmit={this.onSubmit} className="text-center form-group">
-          <input
-            name="name"
-            className="form-size"
-            type="text"
-            placeholder="Name"
-            onChange={this.onChange}
-          />
-          <br />
-          <input
-            name="email"
-            className="form-size"
-            type="text"
-            placeholder="Email"
-            onChange={this.onChange}
-          />
-          <br />
-          <input
-            name="company"
-            className="form-size"
-            type="text"
-            placeholder="Company"
-            onChange={this.onChange}
-          />
-          <br />
-          <input
-            name="phone"
-            className="form-size"
-            type="text"
-            placeholder="Phone"
-            onChange={this.onChange}
-          />
-          <br />
-          <textarea
-            name="message"
-            className="form-area"
-            col="8"
-            type="text"
-            placeholder="Write your message here ..."
-            onChange={this.onChange}
-          />
-          <br />
-          <button className="btn-form">Send</button>
-        </form>
-        {/* <button onClick={this.onClick}>change language</button> */}
-      </div>
-    );
-
-    return this.state.clicked ? inEnglish : inSpanish;
   }
 }
 

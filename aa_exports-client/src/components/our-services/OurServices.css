@@ -47,24 +47,8 @@ p {
   border: solid lightgrey 1px;
 }
 
-.services-block {
-  margin-bottom: 60px;
-}
-
 .img-size {
   margin: 40px 10px 0 10px;
   width: 350px;
   height: 220px;
-}
-
-.subheading {
-  margin-top: 20px;
-  text-transform: uppercase;
-  font-size: 15px;
-}
-
-@media only screen and (max-width: 676px) and (min-width: 320px) {
-  .services-block {
-    margin-bottom: 0px;
-  }
 }

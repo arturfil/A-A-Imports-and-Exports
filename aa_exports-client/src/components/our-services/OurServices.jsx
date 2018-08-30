@@ -55,46 +55,46 @@ class OurServices extends Component {
             </div>
           </div>
 
-          <div className="row services-block text-center">
+          <div className="row text-center">
             <div className="col-md-4 col-sm-12 col-12">
               <img className="img-size m2" src={machine1} alt="" />
-              <h4 className="subheading">Heavy & Light Machines</h4>
+              <h4>Heavy & Light Machines</h4>
             </div>
             <div className="col-md-4 col-sm-12 col-12">
               <img className="img-size m2" src={machine2} alt="" />
-              <h4 className="subheading">Engines for Machinery</h4>
+              <h4>Engines for Machinery</h4>
             </div>
             <div className="col-md-4 col-sm-12 col-12">
               <img className="img-size m2" src={machine3} alt="" />
-              <h4 className="subheading">Construction Cranes Machines</h4>
+              <h4>Construction Cranes Machines</h4>
             </div>
           </div>
-          <div className="row services-block text-center">
+          <div className="row text-center">
             <div className="col-md-4 col-sm-12 col-12">
               <img className="img-size m2" src={machine4} alt="" />
-              <h4 className="subheading">Hydraulic Hammers</h4>
+              <h4>Hydraulic Hammers</h4>
             </div>
             <div className="col-md-4 col-sm-12 col-12">
               <img className="img-size m2" src={machine5} alt="" />
-              <h4 className="subheading">Forklifts</h4>
+              <h4>Forklifts</h4>
             </div>
             <div className="col-md-4 col-sm-12 col-12">
               <img className="img-size m2" src={machine6} alt="" />
-              <h4 className="subheading">Valves, Bombs & Compressors</h4>
+              <h4>Valves, Bombs & Compressors</h4>
             </div>
           </div>
-          <div className="row services-block text-center">
+          <div className="row text-center">
             <div className="col-md-4 col-sm-12 col-12">
               <img className="img-size m2" src={machine7} alt="" />
-              <h4 className="subheading">Portable Power Generator</h4>
+              <h4>Portable Power Generator</h4>
             </div>
             <div className="col-md-4 col-sm-12 col-12">
               <img className="img-size m2" src={machine8} alt="" />
-              <h4 className="subheading">Boat Accesories & Repair Parts</h4>
+              <h4>Boat Accesories & Repair Parts</h4>
             </div>
             <div className="col-md-4 col-sm-12 col-12">
               <img className="img-size m2" src={machine9} alt="" />
-              <h4 className="subheading">Airplane Parts</h4>
+              <h4>Airplane Parts</h4>
             </div>
           </div>
         </div>
