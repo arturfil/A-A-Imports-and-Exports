@@ -112,7 +112,7 @@ class ContactUs extends Component {
           <br />
           <button className="btn-form">Send</button>
         </form>
-        <button onClick={this.onClick}>change language</button>
+        {/* <button onClick={this.onClick}>change language</button> */}
       </div>
     );
 
