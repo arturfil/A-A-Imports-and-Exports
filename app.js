@@ -29,53 +29,53 @@ app.use(passport.initialize());
 require('./config/passport')(passport);
 
 //routes
-app.get('/', (req, res, next) => {
-  console.log('Index route works');
-});
+// app.get('/', (req, res, next) => {
+//   console.log('Index route works');
+// });
 
-app.post('/api/form', (req, res, next) => {
-  console.log(req.body);
-  const output = `
-    <p>New Job/Carrer Email: </p>
-    <h3>Contact Details</h3>
-      <p>Name: ${req.body.name}</p>
-      <p>Company: ${req.body.company}</p>
-      <p>Email: ${req.body.email}</p>
-      <p>Phone: ${req.body.phone}</p>
-    <h3>Message</h3>
-    <p>
-      ${req.body.message}
-    </p>`;
+// app.post('/api/form', (req, res, next) => {
+//   console.log(req.body);
+//   const output = `
+//     <p>New Job/Carrer Email: </p>
+//     <h3>Contact Details</h3>
+//       <p>Name: ${req.body.name}</p>
+//       <p>Company: ${req.body.company}</p>
+//       <p>Email: ${req.body.email}</p>
+//       <p>Phone: ${req.body.phone}</p>
+//     <h3>Message</h3>
+//     <p>
+//       ${req.body.message}
+//     </p>`;
 
-  let nodemailer = require('nodemailer');
+//   let nodemailer = require('nodemailer');
 
-  let transporter = nodemailer.createTransport({
-    service: 'gmail',
-    auth: {
-      user: keys.email,
-      pass: keys.secretKey,
-    },
-    tls: {
-      rejectUnauthorized: false,
-    },
-  });
+//   let transporter = nodemailer.createTransport({
+//     service: 'gmail',
+//     auth: {
+//       user: keys.email,
+//       pass: keys.secretKey,
+//     },
+//     tls: {
+//       rejectUnauthorized: false,
+//     },
+//   });
 
-  let mailOptions = {
-    from: keys.email,
-    to: keys.email,
-    subject: req.body.name + ' Portfolio Page',
-    text: 'Request',
-    html: output,
-  };
+//   let mailOptions = {
+//     from: keys.email,
+//     to: keys.email,
+//     subject: req.body.name + ' Portfolio Page',
+//     text: 'Request',
+//     html: output,
+//   };
 
-  transporter.sendMail(mailOptions, (error, info) => {
-    if (error) {
-      console.log(error);
-    } else {
-      console.log('Email sent: ' + info.response);
-    }
-  });
-});
+//   transporter.sendMail(mailOptions, (error, info) => {
+//     if (error) {
+//       console.log(error);
+//     } else {
+//       console.log('Email sent: ' + info.response);
+//     }
+//   });
+// });
 
 // Serve static assets if in production
 if (process.env.NODE_ENV === 'production') {
