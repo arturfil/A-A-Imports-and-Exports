@@ -10,8 +10,8 @@ const keys = require('./config/keys');
 const app = express();
 
 // Body parser middleware
-app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
 
 // DB Config
 const db = require('./config/keys').mongoUri;
@@ -45,8 +45,7 @@ app.post('/api/form', (req, res, next) => {
     <h3>Message</h3>
     <p>
       ${req.body.message}
-    </p>
-  `;
+    </p>`;
 
   let nodemailer = require('nodemailer');
 
