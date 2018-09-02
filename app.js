@@ -58,7 +58,7 @@ app.post('/api/form', (req, res, next) => {
   let mailOptions = {
     from: keys.email,
     to: keys.email,
-    subject: req.body.name + '| cliente potencial',
+    subject: req.body.name + ' | Cliente potencial',
     text: 'Request',
     html: output,
   };
