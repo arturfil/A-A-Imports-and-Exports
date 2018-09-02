@@ -6,7 +6,7 @@ import machine2 from '../../img/machine_engine.jpeg';
 import machine3 from '../../img/crane-machine.jpg';
 import machine4 from '../../img/hydraulic_hammer.jpg';
 import machine5 from '../../img/forklift.jpg';
-import machine6 from '../../img/valve.jpg';
+import machine6 from '../../img/globe_valve.jpg';
 import machine7 from '../../img/power-generator.jpg';
 import machine8 from '../../img/boat-parts.jpg';
 import machine9 from '../../img/plane-part.jpeg';

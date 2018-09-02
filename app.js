@@ -28,11 +28,6 @@ app.use(passport.initialize());
 // Passport Config
 require('./config/passport')(passport);
 
-//routes
-// app.get('/', (req, res, next) => {
-//   console.log('Index route works');
-// });
-
 app.post('/api/form', (req, res, next) => {
   console.log(req.body);
   const output = `
@@ -63,7 +58,7 @@ app.post('/api/form', (req, res, next) => {
   let mailOptions = {
     from: keys.email,
     to: keys.email,
-    subject: req.body.name + ' Portfolio Page',
+    subject: req.body.name + ' Mensaje de cliente potencial',
     text: 'Request',
     html: output,
   };
